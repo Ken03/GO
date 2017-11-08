@@ -1,7 +1,7 @@
 package main
 
 import (
-	//嗨
+	//HI
 	"bytes"
 	"encoding/binary"
 	"fmt"
