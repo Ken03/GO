@@ -128,7 +128,10 @@ func test() {
 	// jymdata := data[nowlen:(jymlen + nowlen)]
 	// fmt.Println("校验码：", jymdata)
 	poststrdata := "dev_test,tag_name=TH_01_tem value=" + strconv.FormatFloat(wbNumber2, 'E', -1, 64)
+	poststrdata1 := "dev_test,tag_name=TH_01_tem1 value=" + strconv.FormatFloat(sdNumber2, 'E', -1, 64)
+
 	httpPostForm(poststrdata)
+	httpPostForm(poststrdata1)
 }
 
 func timer1() {
